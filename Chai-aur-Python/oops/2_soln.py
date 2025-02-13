@@ -10,7 +10,11 @@ class Car:
         self.brand = brand 
         self.name = name    
         print(f"This is a {self.brand} {self.name}")
+    
+    def display_car(self):
+        print(f"the name of brand is {self.brand}")
 
 my_car = Car("Model S", "Electric")
 
 my_car.type_car("Tesla", "Model S")
+my_car.display_car()
